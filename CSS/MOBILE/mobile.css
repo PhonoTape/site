@@ -69,6 +69,7 @@
             margin-top: 350px;
         }
         #planos3 {
+            height: 700px;
             margin-top: -55px;
         }
         .contato .container {
@@ -115,6 +116,6 @@
             width: 45%;
         }
         #footer-contato {
-            margin-top: 380px;
+            margin-top: -200px;
         }
     }
