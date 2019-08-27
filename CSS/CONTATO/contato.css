@@ -1,0 +1,150 @@
+.title {
+    width: 100%;
+    height: 140px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+.title .container {
+    width: 85%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--center);
+    color: var(--font-color);
+    font-size: 26pt;
+    font-family: var(--font-main);
+}
+
+.contato {
+    width: 100%;
+    height: 500px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    font-family: var(--font-main);
+}
+
+.contato .container {
+    width: 85%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: var(--nowrap);
+}
+
+
+/* Infos Aside Left */
+
+.contato .container .infos {
+    width: 30%;
+    height: 400px;
+    display: var(--flex);
+    flex-wrap: var(--wrap);
+}
+
+.contato .container .infos .infos-p1 {
+    width: 100%;
+    height: 50px;
+    color: #3f3f3f;
+    font-size: 14pt;
+    /* background-color: aquamarine; */
+}
+
+.contato .container .infos .infos-p2 {
+    width: 100%;
+    height: 150px;
+    color: #3f3f3f;
+    font-size: 14pt;
+    /* background-color: blue; */
+}
+
+.contato .container .infos .infos-p3 {
+    width: 100%;
+    height: 100px;
+}
+
+.contato .container .infos .infos-p3 a {
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    display: var(--flex);
+    justify-content: var(--space-around);
+    align-items: var(--center);
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+.contato .container .infos .infos-p3 a img {
+    width: 15%;
+}
+
+
+/* Infos Aside Left */
+
+.contato .container .form-container {
+    width: 70%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+.contato .container .form-container form {
+    width: 90%;
+    height: 80%;
+    display: var(--flex);
+    justify-content: var(--space-around);
+    align-items: var(--center);
+    flex-wrap: var(--wrap);
+}
+
+.contato .container .form-container form input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type='submit'] {
+    width: 40%;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: solid 2px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #3f3f3f;
+}
+
+.contato .container .form-container form select {
+    width: 45%;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: solid 2px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #3f3f3f;
+}
+
+.contato .container .form-container form select option {
+    color: #3f3f3f;
+}
+
+.contato .container .form-container form textarea {
+    resize: none;
+    width: 90%;
+    height: 100px;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: solid 2px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    color: #3f3f3f;
+}
+
+.contato .container .form-container form input[type='submit'] {
+    width: 30%;
+    cursor: pointer;
+    color: #3f3f3f;
+}
+
+#enviar {
+    width: 30%;
+    cursor: pointer;
+    color: #3f3f3f;
+}
