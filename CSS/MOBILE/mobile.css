@@ -60,7 +60,7 @@
             margin-top: -60px;
         }
         #planos-footer {
-            margin-top: 0px;
+            margin-top: 250px;
         }
         .linha-container {
             display: none;
@@ -116,6 +116,6 @@
             width: 45%;
         }
         #footer-contato {
-            margin-top: -200px;
+            margin-top: 400px;
         }
     }
