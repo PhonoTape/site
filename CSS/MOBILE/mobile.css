@@ -115,6 +115,11 @@
             margin-top: 20px;
             width: 45%;
         }
+        #planos4{
+            height: 300px;
+            margin-bottom: -200px;
+            margin-top: 520px;
+        }
         #footer-contato {
             margin-top: 400px;
         }

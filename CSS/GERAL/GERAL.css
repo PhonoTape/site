@@ -31,4 +31,13 @@ span {
     font-weight: normal;
 }
 
+#analise{
+    font-size: 10pt;
+    font-weight: 100;
+    color: rgb(189, 189, 189);
+}
+#linha3{
+    margin-top: -150px;
+}
+
 @media only screen and (max-width: 800px) {}
