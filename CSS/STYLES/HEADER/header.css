@@ -48,7 +48,7 @@ header .container .card-header .card-top {
     height: 225px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: #e00000;
+    background-color: var(--vermelho);
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.08)
 }
 
